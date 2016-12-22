@@ -652,10 +652,23 @@
 		$('.modal-body').append('<h6>YOU REQUIRE T17 18 D16</h6>');
 	}
 
-	if (person == 100) {
+	else if (person == 100) {
 		$('.170').modal('show');
 		$('.modal-body').append('<h6>You require T20 D20</h6>');
 }
+
+	else if (person > 180){
+    	alert("Please enter a score between 100 and 170");
+     	}
+     else if (isNaN(person)===true){
+     	alert("This is not a number");
+     }
+     else if (person >=40  &&  person <=99){
+     	alert("Please check table for scores from 41 to 99")
+     }
+     else if (person <=39){
+     	alert("This page shows finishes from 41 to 170")
+     }
 
 
 	function refreshPage(){
