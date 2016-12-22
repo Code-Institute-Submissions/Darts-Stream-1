@@ -295,6 +295,41 @@ text-decoration: bold
 	background-color: black !important;
 }
 
+.inner-title-content {
+	background-color: green;
+	text-align: center;
+	border: 2px solid red;
+}
+
+.advanced-videos {
+	background-color: red !important;
+}
+
+.adv-vid {
+	background-color: red;
+}
+
+.modal-header {
+	background-color: green;
+	text-align: center;
+	color: black;
+	font-size: 50px;
+}
+
+.modal-body {
+	background-color: red;
+	font-size: 30px;
+}
+
+.append {
+	font-size: 50px;
+}
+
+.again {
+	position: absolute;
+	left: 40px;
+}
+
 
 
 
