@@ -1,0 +1,304 @@
+body {
+	background-color: black;
+}
+
+.carousel-header {
+	text-align: center;
+	color: green;
+}
+
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+	list-style-image: url('http://www.animatedimages.org/data/media/162/animated-darts-image-0007.gif');
+}
+
+.rules {
+	font-size: 20px;
+	background-color: white;
+}
+
+.beginner {
+	color: red;
+	background-color: white;
+}
+
+.advanced-videos {
+	background-color: white;
+}
+
+.pro-practice {
+	text-align: center;
+	font-size: 30px;
+	color: green;
+	text-decoration: underline;
+}
+
+.games {
+	background-color: white;
+}
+
+.games p {
+	font-size: 25px;
+}
+
+.game-names {
+	text-align: center;
+	font-size: 30px;
+	color: red;
+	text-decoration: underline;
+}
+
+.image-quotes {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.501 {
+	background-color: red;
+	color: white;
+}
+
+.title {
+	color: red;
+	text-align: center;
+}
+
+.501 h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.501 h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+#player1, #player2 {
+	float: left; width: 50%;
+}
+
+#start {
+	display: block;
+	margin: 0 auto;
+	color: red;
+	float: left;
+}
+
+#p2score {
+	color: red;
+}
+
+
+.501-score {
+	background-color: red !important;
+}
+
+#p2score {
+	float: right;
+}
+
+.p1score {
+	color: blue;
+	font-size: 25px;
+}
+
+  
+#p2start {
+	display: block;
+	margin: 0 auto;
+	color: red;
+	float: right;
+}
+
+.p2score {
+	color: yellow;
+	font-size: 25px;
+}
+
+.month {
+	text-align: center;
+	font-size: 20px;
+}
+
+table, th, td {
+	border: 1px solid red
+}
+
+table {
+	width: 50%;
+	background-color: yellow;
+}
+
+th {
+	height: 50px;
+	text-decoration: bold;
+	color: blue;
+	background-color: red;
+	text-align: center;
+}
+
+td {
+	color: blue;
+	text-align: center;
+	width: 30px
+}
+
+th, td {
+	width: 30px;
+}
+
+tr {
+	width: 30px
+}
+
+.beginner-method {
+	background-color: white;
+	border: 5px solid red;
+}
+
+.beginner-method h2, h1 {
+	color: red;
+	text-align: center;
+}
+
+/*.beginner-targets {
+	background-color: red;
+	border: 5px solid green;*/
+}
+
+.beginner-warmup {
+	background-color: white;
+	border: 5px solid red;
+}
+
+.beginner-warmup h2 {
+	color: red;
+	text-align: center;
+}
+
+.prep-info {
+	background-color: white;
+	color: black;
+}
+
+.round-board {
+	float: left;
+	width: 200px;
+}
+/*.three {
+	float: right;
+}*/
+
+.left {
+	background-color: white;
+	/*width: 45%;
+	height: 350px;*/
+	
+}
+.left h2 {
+	text-align: center;
+}
+
+.right {
+	background-color: red;
+	font-size: 20px;
+	height: 240px;
+	/*width: 45%;
+	height: 350px;*/
+	
+}
+
+.right h2 {
+	text-align: center;
+}
+
+.right .calm {
+	float: left;
+	top: 50px;
+}
+
+.right .twenty {
+	/*float: right;*/
+display: inline;
+}
+
+.advanced-header {
+	background-color: white;
+	text-align: center;
+	color: black;
+}
+
+.advanced-21 {
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.bullseye-500 {
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.eighty-plus {
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.lookup {
+	text-align: center;
+	font-size: 40px;
+	color: red;
+}
+
+/*.quick {
+	background-color: white
+	text-align: center;
+}*/
+
+
+.quick {
+	display: block;
+	text-align: center;
+}
+
+.modal-body {
+	text-align: center;
+text-decoration: bold
+}
+
+ .carousel-control {
+	background-color: none;
+	height: 100%;
+	width: 100%;
+}
+
+.carousel-caption {
+ 	top: 0;
+    bottom: auto;
+}
+
+.setup-header {
+	color: red !important;
+	text-align: center !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
