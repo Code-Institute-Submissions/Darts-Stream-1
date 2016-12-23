@@ -164,15 +164,24 @@
 	 </section>
 	<!-- Subpage title end -->
 
+
+<div class="score-button">
 	
 	<h1 class="title"> 301 </h1>
+	<br>
+	<br>
+	<button type="button" class="btn btn-danger btn-lg" style="display: block; margin: 0 auto;" onClick="refreshPage()">Play Again</button>
+
+</div>
 
 		<div class="501-score">
 
 
+
+
 		<div class="container">
 
-			<button  type="button" class="btn btn-danger btn-lg again" onClick="refreshPage()">Play Again</button>
+			
 		
 		
 		<div>
@@ -233,7 +242,7 @@
     $('#start').on("click", function(){
 	var currentScore = prompt("Please enter your score");
  	if (currentScore > 180){
-    	alert("Please enter a number between 1 and 180");
+    	alert("Please enter a score between 1 and 180");
      	}
      else if (isNaN(currentScore)===true){
      	alert("This is not a number");
@@ -241,10 +250,12 @@
      else if (currentScore > remainScore){
      	alert("Sorry Bust");
      }
-	 else {
+	 else  {
    	 remainScore -= currentScore;
 	$("#" +  currentPlayer + " ul").append( $("<li>You Scored : " + currentScore + " <br> Remaining : " + remainScore + "</li>") ) ;
 	}
+
+
 	});
 
 
@@ -253,7 +264,7 @@
     $('#p2start').on("click", function(){
 	 var currentScore = prompt("Please enter your score");
 	 if (currentScore > 180){
-    	alert("Please enter a number between 1 and 180");
+    	alert("Please enter a score between 1 and 180");
      	}
      else if (isNaN(currentScore)===true){
      	alert("This is not a number");
