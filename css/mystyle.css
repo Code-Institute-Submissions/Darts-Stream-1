@@ -290,6 +290,7 @@ text-decoration: bold
 .setup-header {
 	color: red !important;
 	text-align: center !important;
+	font-size: 25px;
 }
 
 .home {
@@ -347,6 +348,15 @@ text-decoration: bold
 
 .score-button {
 	text-align: center;
+}
+
+.instructions {
+	
+	height: 290px;
+	display: table-cell;
+	vertical-align: middle !important;
+	font-size: 20px;
+	/*min-width: 15% !important;*/
 }
 
 
