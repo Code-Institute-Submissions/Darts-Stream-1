@@ -32,15 +32,21 @@ ul {
 	background-color: white;
 }
 
+.advanced-videos h4 {
+	font-weight: bold;
+	text-align: center;
+}
+
 .pro-practice {
 	text-align: center;
 	font-size: 30px;
 	color: green;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	background-color: white;
 }
 
 .games {
-	background-color: white;
+	/*background-color: white;*/
 }
 
 .games p {
@@ -357,6 +363,15 @@ text-decoration: bold
 	vertical-align: middle !important;
 	font-size: 20px;
 	/*min-width: 15% !important;*/
+}
+
+#myCarousel {
+	border: 5px solid blue;
+}
+
+.item {
+	padding-right: 175px;
+	padding-left: 175px;
 }
 
 
